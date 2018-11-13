@@ -3,7 +3,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.length > 0 
     counter = 0
-    line = katz_deli.map{|x|"#{counter+=1}.  #{x}"}.join
+    line = katz_deli.map{|x|"#{counter+=1}. #{x}"}.join
     puts "The line is currently: #{line}"
   end 
 end
