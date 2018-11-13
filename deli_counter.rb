@@ -4,7 +4,7 @@ def line(katz_deli)
   elsif katz_deli.length > 0 
     counter = 0
     line = katz_deli.map{|x|" #{counter += 1}. #{x}"}.join
-    puts "The line is currently: #{line}"
+    puts "The line is currently:#{line}"
  
   end 
 end
