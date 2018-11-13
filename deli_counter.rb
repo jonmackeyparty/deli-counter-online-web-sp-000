@@ -5,7 +5,7 @@ def line(katz_deli)
     counter = 0
     line = katz_deli.map{|x|"#{counter =+1}. #{x}"}.join
     line << "The line is currently: "
-    line
+    puts line
   end 
 end
 
